@@ -1,0 +1,61 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
+body{
+    font-family: 'Poor Story', cursive;
+    font-size: 20px;
+    color: #9d9d9d !important;
+}
+
+.navbar-inverse {
+    background-color: #fff !important;
+    border-color: #ccc !important;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    background-color: transparent;
+    color: #999999;
+}
+
+#navbar > ul > li:nth-child(1) > a:hover,#navbar > ul > li:nth-child(2) > a:hover,
+#navbar > ul > li:nth-child(1) > a:focus,#navbar > ul > li:nth-child(2) > a:focus{
+    background-color: transparent;
+    color: #999999;
+}
+a:hover,
+a:focus {
+    background-color: transparent;
+    color: #999999;
+}
+
+
+.formStyle{
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+#profile{
+    margin-top:70px;
+    /*border: solid 1px black;
+    padding: 20px;*/
+}
+.profileheader{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 0px 10px;
+    height: 400px;
+}
+.img-responsive {
+    margin: 0 auto;
+    width:  100px;
+    height: 100px;
+}
+
+.panel{
+    height: 340px !important;
+}
+
+
+

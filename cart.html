@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Shopping Tools</title>
+</head>
+<body>
+
+<div class="container">
+  
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Shopping Tools</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>  <!--/ nav ends-->
+    <br><br><br>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Cart</div>
+                <div class="panel-body">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+
+                            <th class="text-center">Product</th>
+                            <th class="text-center">Price</th>
+                            <th></th>
+
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+
+                            <td class="text-center"><strong>Product description</strong></td>
+
+                            <td class="text-center"><strong>$4.87</strong></td>
+
+                            <td>
+                                <button type="button" class="btn btn-danger">&times</button>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="text-right"><h4>Total</h4></td>
+                            <td class="text-center"><h4><strong>$4.87</strong></h4></td>
+                            <td></td>
+
+                        </tr>
+                        </tbody>
+
+                    </table>
+
+                        <div>
+                            <button type="button" class="btn btn-default">
+                                Continue Shopping
+                            </button>
+                            <a href="/checkout" class="btn btn-default">
+                                CheckOut
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div> <!-- end row here-->
+</div><!-- content container -->
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
